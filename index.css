@@ -1,0 +1,100 @@
+*
+{
+padding: 0px;
+margin: 0px;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+line-height: 1.5em;
+}
+
+body
+{
+	height: 100vh;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-size: cover;
+	justify-content: center;
+}
+
+.content {
+    margin:20%;
+    background-color:rgba(255, 255, 255, 0.9);
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top:0;
+    padding-top:0;
+}
+
+.inner-content {
+    margin: 30px;
+    padding:0;
+    background:transparent;
+    color:black;
+}
+
+.logo {
+    margin:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 0;
+}
+
+.label {
+    font-variant: small-caps;
+}
+
+section {
+    display: table;
+    width: 100%;
+  }
+  
+  section > * {
+    display: table-row;
+  }
+  
+  section .col {
+    display: table-cell;
+  }
+
+  section .spacer {
+      width:5px;
+  }
+
+  .instagram {
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+}
+
+.clickable {
+
+      width:30px; 
+      height:30px;
+      background-image: url(data:image/png;base64,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);
+      background-size:contain;
+}
+
+.instagram a {
+    margin-top: 30px;
+    display:flex;
+    text-decoration: none;;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+@media (max-width: 800px) {
+    .content {
+        margin:10%;
+        margin-top: 0;
+        font-size: small;
+    }
+    .logo {
+        margin:10%;
+        font-size: small;
+        margin-bottom:0;
+    }
+}
